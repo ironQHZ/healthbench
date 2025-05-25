@@ -33,3 +33,4 @@ This will launch evaluations through the OpenAI API.
 - 2. The original repo also runs several other benchmarks like MMLU/GPQA, although they are not mentioned in the paper. If you want to run them, go to the end of simple_evals.py and uncomment the benchmarks you would like to try.
 - 3. Result files will be generated in ./tmp
 - 4. check ./data for dataset info
+- 5. Remenber to add openai and alibaba cloud api key as environment variable
