@@ -29,7 +29,7 @@ This will launch evaluations through the OpenAI API.
 *To run all 5000 examples, simply ignore the --examples flag.
 
 ## notes
--1. The original code use gpt-4.1 as the grader. I changed it to gpt-4.1-mini during testing. You can try other models. Just search for "grading_sampler".
--2. The original repo also runs several other benchmarks like MMLU/GPQA, although they are not mentioned in the paper. If you want to run them, go to the end of simple_evals.py and uncomment the benchmarks you would like to try.
--3. Result files will be generated in ./tmp
--4. check ./data for dataset info
+- 1. The original code use gpt-4.1 as the grader. I changed it to gpt-4.1-mini during testing. You can try other models. Just search for "grading_sampler".
+- 2. The original repo also runs several other benchmarks like MMLU/GPQA, although they are not mentioned in the paper. If you want to run them, go to the end of simple_evals.py and uncomment the benchmarks you would like to try.
+- 3. Result files will be generated in ./tmp
+- 4. check ./data for dataset info
