@@ -29,8 +29,6 @@ from .sampler.o_chat_completion_sampler import OChatCompletionSampler
 from .sampler.responses_sampler import ResponsesSampler
 from .simpleqa_eval import SimpleQAEval
 
-os.environ["OPENAI_API_KEY"] = "some_key_here"
-os.environ["DASHSCOPE_API_KEY"] = "some_key_here"
 locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 def main():
